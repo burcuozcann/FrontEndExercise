@@ -2,18 +2,35 @@
     margin: 0;
     padding: 0;
 }
-div{
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+.container{  
+background-color: azure;
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+    max-width: 480px;
+    margin: 0 auto;
+    border-radius: 50%;
+
+   
 }
-div ul{
+ul{
     list-style: none;
+    display: flex;
+    padding:0;
+    margin: 0;
+
+
 
 }
-img{
-width: 20%;
-height: 20%;
+li{
+    padding: 40% 20px;
+    width: 50px;
+    height:70px;
+
 }
+ img{
+    max-width: 100%;
+    width: 50px;
+    height: 50px
+
+}   
